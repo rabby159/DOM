@@ -24,5 +24,8 @@ console.log(price);
 const color = myProduct.filter(product => product.color === 'Ash');
 console.log(color);
 
+const specificPrice = myProduct.filter(product => product.category.includes('p'))
+console.log(specificPrice);
+
 
 
