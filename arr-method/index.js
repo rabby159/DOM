@@ -5,6 +5,8 @@ const myProduct = [
     {category: 'Laptop', price: 60000, color: 'Ash'}
 ];
 
+
+// map
 const result = myProduct.map(product => product.category);
 console.log(result);
 
@@ -13,5 +15,14 @@ console.log(result2);
 
 const result3 = myProduct.map(product => product.price);
 console.log(result3);
+
+
+// filter
+const price = myProduct.filter(product => product.price < 70000);
+console.log(price);
+
+const color = myProduct.filter(product => product.color === 'Ash');
+console.log(color);
+
 
 
