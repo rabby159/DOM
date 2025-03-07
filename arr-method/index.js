@@ -47,3 +47,10 @@ console.log(infoString);
 fetch('URL')
     .then(res => res.json())
     .then(date => console.log(date))
+
+
+// ternary
+
+const money = 150;
+const food = money > 100 ? 'biriyani' : 'cha';
+console.log(food);
