@@ -32,8 +32,7 @@ console.log(specificPrice);
 
 // JSON
 const myInfo = [
-    { name: 'Md Rabby'},
-    { age: 25},
+    { name: 'Md Rabby'},{ age: 25},
     { course: ['Level 1', 'Level 2']}
 ];
 
@@ -43,3 +42,8 @@ console.log(infoJson);
 const infoString = JSON.parse(infoJson);
 console.log(infoString);
 
+// fetch
+
+fetch('URL')
+    .then(res => res.json())
+    .then(date => console.log(date))
