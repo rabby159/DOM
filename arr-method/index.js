@@ -27,5 +27,19 @@ console.log(color);
 const specificPrice = myProduct.filter(product => product.category.includes('p'))
 console.log(specificPrice);
 
+// --------------------------------------
 
+
+// JSON
+const myInfo = [
+    { name: 'Md Rabby'},
+    { age: 25},
+    { course: ['Level 1', 'Level 2']}
+];
+
+const infoJson = JSON.stringify(myInfo);
+console.log(infoJson);
+
+const infoString = JSON.parse(infoJson);
+console.log(infoString);
 
